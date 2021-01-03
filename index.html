@@ -2,71 +2,75 @@
 <html lang="en">
 
 <head>
-    <title>BMC</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="style.css" rel="stylesheet">
+  <title>BMC</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </head>
 
 <style>
-    .nav-item {
-        margin: 0 auto;
-    }
+  .nav-item {
+    margin: 0 auto;
+  }
 
-    .card {
-        margin: 0 auto;
-    }
+  .card {
+    margin: 0 auto;
+  }
 
-    .card-text {
-        text-align: center;
-    }
-
-
+  .card-text {
+    text-align: center;
+  }
 
 
 
 
 
-    ::selection {
-  background: rgba(255,255,0,0.5);
-}
-.window {
-  width: 340px;
-  height: 340px;
-  background: #a0d5d3;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  opacity: 0.03;
-  border-radius: 50%;
-  margin-top: -60px;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  border: 10px solid #f8e7dc;
-  overflow: hidden; }
 
-.santa {
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
-  transform: translateX(-50%); }
+
+  ::selection {
+    background: rgba(255, 255, 0, 0.5);
+  }
+
+  .window {
+    width: 340px;
+    height: 340px;
+    background: #a0d5d3;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    opacity: 0.03;
+    border-radius: 50%;
+    margin-top: -60px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: 10px solid #f8e7dc;
+    overflow: hidden;
+  }
+
+  .santa {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+
   .santa .body {
     width: 190px;
     height: 210px;
@@ -83,22 +87,26 @@
     -moz-transform: translateY(50%);
     -ms-transform: translateY(50%);
     -o-transform: translateY(50%);
-    transform: translateY(50%); }
-    .santa .body:before {
-      content: " ";
-      width: 7px;
-      height: 7px;
-      background: #f7be10;
-      border-radius: 50%;
-      position: absolute;
-      top: 35%;
-      left: 50%;
-      -webkit-transform: translate(-50%, -50%);
-      -moz-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      -o-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-      box-shadow: 0px -18px 0px #f7be10, 0px 18px 0px #f7be10; }
+    transform: translateY(50%);
+  }
+
+  .santa .body:before {
+    content: " ";
+    width: 7px;
+    height: 7px;
+    background: #f7be10;
+    border-radius: 50%;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    box-shadow: 0px -18px 0px #f7be10, 0px 18px 0px #f7be10;
+  }
+
   .santa .head {
     z-index: 2;
     position: absolute;
@@ -113,784 +121,1022 @@
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
-    transform: translateX(-50%); }
-    .santa .head .face {
-      width: 120px;
-      height: 130px;
-      background: #edcab0;
-      background: radial-gradient(#edcab0, #e9a982);
-      border-radius: 50%;
-      border: 3px solid #f8e7dc; }
-      .santa .head .face .redhat .whitepart {
-        position: absolute;
-        left: 50%;
-        top: 0;
-        -webkit-transform: translateX(-50%);
-        -moz-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-        -o-transform: translateX(-50%);
-        transform: translateX(-50%);
-        width: 90%;
-        height: 32px;
-        background: #f8e7dc;
-        border-radius: 50px;
-        z-index: 4;
-        box-shadow: 0px 6px 0px -4px rgba(0, 0, 0, 0.1); }
-      .santa .head .face .redhat .redpart {
-        width: 120px;
-        height: 120px;
-        background: #de2f32;
-        position: absolute;
-        top: -50px;
-        left: 15px;
-        border-radius: 50%;
-        z-index: -1; }
-        .santa .head .face .redhat .redpart:before {
-          content: " ";
-          width: 95px;
-          height: 95px;
-          position: absolute;
-          left: 0;
-          top: 12px;
-          border-radius: 50%;
-          box-shadow: inset -8px -1px 0px -5px rgba(0, 0, 0, 0.05); }
-        .santa .head .face .redhat .redpart:after {
-          content: " ";
-          position: absolute;
-          right: 0;
-          top: 60px;
-          background: #de2f32;
-          width: 20px;
-          height: 50px; }
-      .santa .head .face .redhat .hatball {
-        width: 38px;
-        height: 38px;
-        background: #f8e7dc;
-        border-radius: 50%;
-        z-index: 5;
-        position: absolute;
-        right: -20px;
-        top: 40px;
-        box-shadow: 0px 6px 0px -4px rgba(0, 0, 0, 0.1); }
-      .santa .head .face .eyes {
-        position: absolute;
-        left: 50%;
-        -webkit-transform: translateX(-50%);
-        -moz-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-        -o-transform: translateX(-50%);
-        transform: translateX(-50%);
-        top: 57px; }
-        .santa .head .face .eyes:before, .santa .head .face .eyes:after {
-          content: " ";
-          position: absolute;
-          width: 15px;
-          height: 9px;
-          top: 0;
-          border: 5px solid #a8744f;
-          border-width: 0;
-          border-top-width: 5px;
-          border-radius: 50%; }
-        .santa .head .face .eyes:before {
-          left: -28px; }
-        .santa .head .face .eyes:after {
-          right: -28px; }
-      .santa .head .face .beard {
-        width: 55px;
-        height: 55px;
-        background: #f8e7dc;
-        border-radius: 50%;
-        position: absolute;
-        bottom: -30px;
-        left: 50%;
-        -webkit-animation: beardLaugh 4s linear infinite;
-        -moz-animation: beardLaugh 4s linear infinite;
-        -ms-animation: beardLaugh 4s linear infinite;
-        -o-animation: beardLaugh 4s linear infinite;
-        animation: beardLaugh 4s linear infinite;
-        -webkit-transform: translateX(-50%);
-        -moz-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-        -o-transform: translateX(-50%);
-        transform: translateX(-50%); }
-        .santa .head .face .beard:before, .santa .head .face .beard:after {
-          content: " ";
-          width: 80px;
-          height: 80px;
-          background: #f8e7dc;
-          border-radius: 50%;
-          position: absolute;
-          bottom: 15px; }
-        .santa .head .face .beard:before {
-          left: -40px; }
-        .santa .head .face .beard:after {
-          right: -40px; }
-        .santa .head .face .beard .nouse {
-          width: 25px;
-          height: 20px;
-          border-radius: 50%;
-          background: #edcab0;
-          position: absolute;
-          z-index: 3;
-          box-shadow: inset -3px -3px 0px #e9a982;
-          left: 50%;
-          -webkit-transform: translateX(-50%);
-          -moz-transform: translateX(-50%);
-          -ms-transform: translateX(-50%);
-          -o-transform: translateX(-50%);
-          transform: translateX(-50%);
-          top: -42px; }
-        .santa .head .face .beard .mouth {
-          background: #a8744f;
-          z-index: 3;
-          position: absolute;
-          width: 15px;
-          height: 5px;
-          border-bottom-right-radius: 80px 50px;
-          border-bottom-left-radius: 80px 50px;
-          left: 50%;
-          top: 0;
-          -webkit-animation: mouthLaugh 4s linear infinite;
-          -moz-animation: mouthLaugh 4s linear infinite;
-          -ms-animation: mouthLaugh 4s linear infinite;
-          -o-animation: mouthLaugh 4s linear infinite;
-          animation: mouthLaugh 4s linear infinite;
-          -webkit-transform: translateX(-50%);
-          -moz-transform: translateX(-50%);
-          -ms-transform: translateX(-50%);
-          -o-transform: translateX(-50%);
-          transform: translateX(-50%); }
-    .santa .head .ears:before, .santa .head .ears:after {
-      content: " ";
-      width: 20px;
-      height: 30px;
-      border-radius: 50%;
-      background: radial-gradient(#e9a982, #edcab0);
-      position: absolute;
-      top: 50%;
-      z-index: -1; }
-    .santa .head .ears:before {
-      left: -8px;
-      -webkit-transform: rotate(-10deg);
-      -moz-transform: rotate(-10deg);
-      -ms-transform: rotate(-10deg);
-      -o-transform: rotate(-10deg);
-      transform: rotate(-10deg); }
-    .santa .head .ears:after {
-      right: -8px;
-      -webkit-transform: rotate(10deg);
-      -moz-transform: rotate(10deg);
-      -ms-transform: rotate(10deg);
-      -o-transform: rotate(10deg);
-      transform: rotate(10deg); }
+    transform: translateX(-50%);
+  }
 
-@font-face {
-  font-family: 'Mountains of Christmas';
-  font-style: normal;
-  src: local("Mountains of Christmas"), local("MountainsofChristmas-Regular"), url(https://fonts.gstatic.com/s/mountainsofchristmas/v8/dVGBFPwd6G44IWDbQtPewylJhLDHyIrT3I5b5eGTHmw.woff2) format("woff2"); }
-.message {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  margin-top: 80px;
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
-  transform: translateX(-50%);
-  color: #f8e7dc;
-  font-family: 'Mountains of Christmas'; }
+  .santa .head .face {
+    width: 120px;
+    height: 130px;
+    background: #edcab0;
+    background: radial-gradient(#edcab0, #e9a982);
+    border-radius: 50%;
+    border: 3px solid #f8e7dc;
+  }
+
+  .santa .head .face .redhat .whitepart {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 90%;
+    height: 32px;
+    background: #f8e7dc;
+    border-radius: 50px;
+    z-index: 4;
+    box-shadow: 0px 6px 0px -4px rgba(0, 0, 0, 0.1);
+  }
+
+  .santa .head .face .redhat .redpart {
+    width: 120px;
+    height: 120px;
+    background: #de2f32;
+    position: absolute;
+    top: -50px;
+    left: 15px;
+    border-radius: 50%;
+    z-index: -1;
+  }
+
+  .santa .head .face .redhat .redpart:before {
+    content: " ";
+    width: 95px;
+    height: 95px;
+    position: absolute;
+    left: 0;
+    top: 12px;
+    border-radius: 50%;
+    box-shadow: inset -8px -1px 0px -5px rgba(0, 0, 0, 0.05);
+  }
+
+  .santa .head .face .redhat .redpart:after {
+    content: " ";
+    position: absolute;
+    right: 0;
+    top: 60px;
+    background: #de2f32;
+    width: 20px;
+    height: 50px;
+  }
+
+  .santa .head .face .redhat .hatball {
+    width: 38px;
+    height: 38px;
+    background: #f8e7dc;
+    border-radius: 50%;
+    z-index: 5;
+    position: absolute;
+    right: -20px;
+    top: 40px;
+    box-shadow: 0px 6px 0px -4px rgba(0, 0, 0, 0.1);
+  }
+
+  .santa .head .face .eyes {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: 57px;
+  }
+
+  .santa .head .face .eyes:before,
+  .santa .head .face .eyes:after {
+    content: " ";
+    position: absolute;
+    width: 15px;
+    height: 9px;
+    top: 0;
+    border: 5px solid #a8744f;
+    border-width: 0;
+    border-top-width: 5px;
+    border-radius: 50%;
+  }
+
+  .santa .head .face .eyes:before {
+    left: -28px;
+  }
+
+  .santa .head .face .eyes:after {
+    right: -28px;
+  }
+
+  .santa .head .face .beard {
+    width: 55px;
+    height: 55px;
+    background: #f8e7dc;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    -webkit-animation: beardLaugh 4s linear infinite;
+    -moz-animation: beardLaugh 4s linear infinite;
+    -ms-animation: beardLaugh 4s linear infinite;
+    -o-animation: beardLaugh 4s linear infinite;
+    animation: beardLaugh 4s linear infinite;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+
+  .santa .head .face .beard:before,
+  .santa .head .face .beard:after {
+    content: " ";
+    width: 80px;
+    height: 80px;
+    background: #f8e7dc;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 15px;
+  }
+
+  .santa .head .face .beard:before {
+    left: -40px;
+  }
+
+  .santa .head .face .beard:after {
+    right: -40px;
+  }
+
+  .santa .head .face .beard .nouse {
+    width: 25px;
+    height: 20px;
+    border-radius: 50%;
+    background: #edcab0;
+    position: absolute;
+    z-index: 3;
+    box-shadow: inset -3px -3px 0px #e9a982;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: -42px;
+  }
+
+  .santa .head .face .beard .mouth {
+    background: #a8744f;
+    z-index: 3;
+    position: absolute;
+    width: 15px;
+    height: 5px;
+    border-bottom-right-radius: 80px 50px;
+    border-bottom-left-radius: 80px 50px;
+    left: 50%;
+    top: 0;
+    -webkit-animation: mouthLaugh 4s linear infinite;
+    -moz-animation: mouthLaugh 4s linear infinite;
+    -ms-animation: mouthLaugh 4s linear infinite;
+    -o-animation: mouthLaugh 4s linear infinite;
+    animation: mouthLaugh 4s linear infinite;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+
+  .santa .head .ears:before,
+  .santa .head .ears:after {
+    content: " ";
+    width: 20px;
+    height: 30px;
+    border-radius: 50%;
+    background: radial-gradient(#e9a982, #edcab0);
+    position: absolute;
+    top: 50%;
+    z-index: -1;
+  }
+
+  .santa .head .ears:before {
+    left: -8px;
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+
+  .santa .head .ears:after {
+    right: -8px;
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    transform: rotate(10deg);
+  }
+
+  @font-face {
+    font-family: 'Mountains of Christmas';
+    font-style: normal;
+    src: local("Mountains of Christmas"), local("MountainsofChristmas-Regular"), url(https://fonts.gstatic.com/s/mountainsofchristmas/v8/dVGBFPwd6G44IWDbQtPewylJhLDHyIrT3I5b5eGTHmw.woff2) format("woff2");
+  }
+
+  .message {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: 80px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    color: #f8e7dc;
+    font-family: 'Mountains of Christmas';
+  }
+
   .message h1 {
     font-style: normal;
     font-size: 75px;
     margin-bottom: 0;
-    white-space: nowrap; }
+    white-space: nowrap;
+  }
+
   .message h2 {
     margin: 0;
     font-size: 20px;
     text-align: center;
-    white-space: nowrap; }
-    .message h2 a {
-      color: #f7be10;
-      opacity: 0.8; }
-      .message h2 a:hover {
-        opacity: 1; }
-
-@-webkit-keyframes bodyLaugh {
-  0% {
-    top: 0px; }
-
-  2% {
-    top: -3px; }
-
-  4% {
-    top: 0px; }
-
-  8% {
-    top: -3px; }
-
-  10% {
-    top: 0px; }
-
-  12% {
-    top: -3px; }
-
-  14% {
-    top: 0px; }
-
-  18% {
-    top: -3px; }
-
-  20% {
-    top: 0px; }
-
-  22% {
-    top: -3px; }
-
-  24% {
-    top: 0px; }
-
-  28% {
-    top: -3px; }
-
-  30% {
-    top: 0px; }
-
-  100% {
-    top: 0px; } }
-@-moz-keyframes bodyLaugh {
-  0% {
-    top: 0px; }
-
-  2% {
-    top: -3px; }
-
-  4% {
-    top: 0px; }
-
-  8% {
-    top: -3px; }
-
-  10% {
-    top: 0px; }
-
-  12% {
-    top: -3px; }
-
-  14% {
-    top: 0px; }
-
-  18% {
-    top: -3px; }
-
-  20% {
-    top: 0px; }
-
-  22% {
-    top: -3px; }
-
-  24% {
-    top: 0px; }
-
-  28% {
-    top: -3px; }
-
-  30% {
-    top: 0px; }
-
-  100% {
-    top: 0px; } }
-@-ms-keyframes bodyLaugh {
-  0% {
-    top: 0px; }
-
-  2% {
-    top: -3px; }
-
-  4% {
-    top: 0px; }
-
-  8% {
-    top: -3px; }
-
-  10% {
-    top: 0px; }
-
-  12% {
-    top: -3px; }
-
-  14% {
-    top: 0px; }
-
-  18% {
-    top: -3px; }
-
-  20% {
-    top: 0px; }
-
-  22% {
-    top: -3px; }
-
-  24% {
-    top: 0px; }
-
-  28% {
-    top: -3px; }
-
-  30% {
-    top: 0px; }
-
-  100% {
-    top: 0px; } }
-@keyframes bodyLaugh {
-  0% {
-    top: 0px; }
-
-  2% {
-    top: -3px; }
-
-  4% {
-    top: 0px; }
-
-  8% {
-    top: -3px; }
-
-  10% {
-    top: 0px; }
-
-  12% {
-    top: -3px; }
-
-  14% {
-    top: 0px; }
-
-  18% {
-    top: -3px; }
-
-  20% {
-    top: 0px; }
-
-  22% {
-    top: -3px; }
-
-  24% {
-    top: 0px; }
-
-  28% {
-    top: -3px; }
-
-  30% {
-    top: 0px; }
-
-  100% {
-    top: 0px; } }
-@-webkit-keyframes beardLaugh {
-  0% {
-    bottom: -28px; }
-
-  2% {
-    bottom: -30px; }
-
-  4% {
-    bottom: -28px; }
-
-  8% {
-    bottom: -30px; }
-
-  10% {
-    bottom: -28px; }
-
-  12% {
-    bottom: -30px; }
-
-  14% {
-    bottom: -28px; }
-
-  18% {
-    bottom: -30px; }
-
-  20% {
-    bottom: -28px; }
-
-  22% {
-    bottom: -30px; }
-
-  24% {
-    bottom: -28px; }
-
-  28% {
-    bottom: -30px; }
-
-  30% {
-    bottom: -28px; }
-
-  100% {
-    bottom: -28px; } }
-@-moz-keyframes beardLaugh {
-  0% {
-    bottom: -28px; }
-
-  2% {
-    bottom: -30px; }
-
-  4% {
-    bottom: -28px; }
-
-  8% {
-    bottom: -30px; }
-
-  10% {
-    bottom: -28px; }
-
-  12% {
-    bottom: -30px; }
-
-  14% {
-    bottom: -28px; }
-
-  18% {
-    bottom: -30px; }
-
-  20% {
-    bottom: -28px; }
-
-  22% {
-    bottom: -30px; }
-
-  24% {
-    bottom: -28px; }
-
-  28% {
-    bottom: -30px; }
-
-  30% {
-    bottom: -28px; }
-
-  100% {
-    bottom: -28px; } }
-@-ms-keyframes beardLaugh {
-  0% {
-    bottom: -28px; }
-
-  2% {
-    bottom: -30px; }
-
-  4% {
-    bottom: -28px; }
-
-  8% {
-    bottom: -30px; }
-
-  10% {
-    bottom: -28px; }
-
-  12% {
-    bottom: -30px; }
-
-  14% {
-    bottom: -28px; }
-
-  18% {
-    bottom: -30px; }
-
-  20% {
-    bottom: -28px; }
-
-  22% {
-    bottom: -30px; }
-
-  24% {
-    bottom: -28px; }
-
-  28% {
-    bottom: -30px; }
-
-  30% {
-    bottom: -28px; }
-
-  100% {
-    bottom: -28px; } }
-@keyframes beardLaugh {
-  0% {
-    bottom: -28px; }
-
-  2% {
-    bottom: -30px; }
-
-  4% {
-    bottom: -28px; }
-
-  8% {
-    bottom: -30px; }
-
-  10% {
-    bottom: -28px; }
-
-  12% {
-    bottom: -30px; }
-
-  14% {
-    bottom: -28px; }
-
-  18% {
-    bottom: -30px; }
-
-  20% {
-    bottom: -28px; }
-
-  22% {
-    bottom: -30px; }
-
-  24% {
-    bottom: -28px; }
-
-  28% {
-    bottom: -30px; }
-
-  30% {
-    bottom: -28px; }
-
-  100% {
-    bottom: -28px; } }
-@-webkit-keyframes headLaugh {
-  0% {
-    bottom: 83px; }
-
-  45% {
-    bottom: 83px; }
-
-  50% {
-    bottom: 90px; }
-
-  92% {
-    bottom: 90px; }
-
-  98% {
-    bottom: 83px; }
-
-  100% {
-    bottom: 83px; } }
-@-moz-keyframes headLaugh {
-  0% {
-    bottom: 83px; }
-
-  45% {
-    bottom: 83px; }
-
-  50% {
-    bottom: 90px; }
-
-  92% {
-    bottom: 90px; }
-
-  98% {
-    bottom: 83px; }
-
-  100% {
-    bottom: 83px; } }
-@-ms-keyframes headLaugh {
-  0% {
-    bottom: 83px; }
-
-  45% {
-    bottom: 83px; }
-
-  50% {
-    bottom: 90px; }
-
-  92% {
-    bottom: 90px; }
-
-  98% {
-    bottom: 83px; }
-
-  100% {
-    bottom: 83px; } }
-@keyframes headLaugh {
-  0% {
-    bottom: 83px; }
-
-  45% {
-    bottom: 83px; }
-
-  50% {
-    bottom: 90px; }
-
-  92% {
-    bottom: 90px; }
-
-  98% {
-    bottom: 83px; }
-
-  100% {
-    bottom: 83px; } }
-@-webkit-keyframes mouthLaugh {
-  0% {
-    width: 20px; }
-
-  45% {
-    width: 20px; }
-
-  50% {
-    width: 15px; }
-
-  92% {
-    width: 15px; }
-
-  98% {
-    width: 20px; }
-
-  100% {
-    width: 20px; } }
-@-moz-keyframes mouthLaugh {
-  0% {
-    width: 20px; }
-
-  45% {
-    width: 20px; }
-
-  50% {
-    width: 15px; }
-
-  92% {
-    width: 15px; }
-
-  98% {
-    width: 20px; }
-
-  100% {
-    width: 20px; } }
-@-ms-keyframes mouthLaugh {
-  0% {
-    width: 20px; }
-
-  45% {
-    width: 20px; }
-
-  50% {
-    width: 15px; }
-
-  92% {
-    width: 15px; }
-
-  98% {
-    width: 20px; }
-
-  100% {
-    width: 20px; } }
-@keyframes mouthLaugh {
-  0% {
-    width: 20px; }
-
-  45% {
-    width: 20px; }
-
-  50% {
-    width: 15px; }
-
-  92% {
-    width: 15px; }
-
-  98% {
-    width: 20px; }
-
-  100% {
-    width: 20px; } }
-
-
-
+    white-space: nowrap;
+  }
+
+  .message h2 a {
+    color: #f7be10;
+    opacity: 0.8;
+  }
+
+  .message h2 a:hover {
+    opacity: 1;
+  }
+
+  @-webkit-keyframes bodyLaugh {
+    0% {
+      top: 0px;
+    }
+
+    2% {
+      top: -3px;
+    }
+
+    4% {
+      top: 0px;
+    }
+
+    8% {
+      top: -3px;
+    }
+
+    10% {
+      top: 0px;
+    }
+
+    12% {
+      top: -3px;
+    }
+
+    14% {
+      top: 0px;
+    }
+
+    18% {
+      top: -3px;
+    }
+
+    20% {
+      top: 0px;
+    }
+
+    22% {
+      top: -3px;
+    }
+
+    24% {
+      top: 0px;
+    }
+
+    28% {
+      top: -3px;
+    }
+
+    30% {
+      top: 0px;
+    }
+
+    100% {
+      top: 0px;
+    }
+  }
+
+  @-moz-keyframes bodyLaugh {
+    0% {
+      top: 0px;
+    }
+
+    2% {
+      top: -3px;
+    }
+
+    4% {
+      top: 0px;
+    }
+
+    8% {
+      top: -3px;
+    }
+
+    10% {
+      top: 0px;
+    }
+
+    12% {
+      top: -3px;
+    }
+
+    14% {
+      top: 0px;
+    }
+
+    18% {
+      top: -3px;
+    }
+
+    20% {
+      top: 0px;
+    }
+
+    22% {
+      top: -3px;
+    }
+
+    24% {
+      top: 0px;
+    }
+
+    28% {
+      top: -3px;
+    }
+
+    30% {
+      top: 0px;
+    }
+
+    100% {
+      top: 0px;
+    }
+  }
+
+  @-ms-keyframes bodyLaugh {
+    0% {
+      top: 0px;
+    }
+
+    2% {
+      top: -3px;
+    }
+
+    4% {
+      top: 0px;
+    }
+
+    8% {
+      top: -3px;
+    }
+
+    10% {
+      top: 0px;
+    }
+
+    12% {
+      top: -3px;
+    }
+
+    14% {
+      top: 0px;
+    }
+
+    18% {
+      top: -3px;
+    }
+
+    20% {
+      top: 0px;
+    }
+
+    22% {
+      top: -3px;
+    }
+
+    24% {
+      top: 0px;
+    }
+
+    28% {
+      top: -3px;
+    }
+
+    30% {
+      top: 0px;
+    }
+
+    100% {
+      top: 0px;
+    }
+  }
+
+  @keyframes bodyLaugh {
+    0% {
+      top: 0px;
+    }
+
+    2% {
+      top: -3px;
+    }
+
+    4% {
+      top: 0px;
+    }
+
+    8% {
+      top: -3px;
+    }
+
+    10% {
+      top: 0px;
+    }
+
+    12% {
+      top: -3px;
+    }
+
+    14% {
+      top: 0px;
+    }
+
+    18% {
+      top: -3px;
+    }
+
+    20% {
+      top: 0px;
+    }
+
+    22% {
+      top: -3px;
+    }
+
+    24% {
+      top: 0px;
+    }
+
+    28% {
+      top: -3px;
+    }
+
+    30% {
+      top: 0px;
+    }
+
+    100% {
+      top: 0px;
+    }
+  }
+
+  @-webkit-keyframes beardLaugh {
+    0% {
+      bottom: -28px;
+    }
+
+    2% {
+      bottom: -30px;
+    }
+
+    4% {
+      bottom: -28px;
+    }
+
+    8% {
+      bottom: -30px;
+    }
+
+    10% {
+      bottom: -28px;
+    }
+
+    12% {
+      bottom: -30px;
+    }
+
+    14% {
+      bottom: -28px;
+    }
+
+    18% {
+      bottom: -30px;
+    }
+
+    20% {
+      bottom: -28px;
+    }
+
+    22% {
+      bottom: -30px;
+    }
+
+    24% {
+      bottom: -28px;
+    }
+
+    28% {
+      bottom: -30px;
+    }
+
+    30% {
+      bottom: -28px;
+    }
+
+    100% {
+      bottom: -28px;
+    }
+  }
+
+  @-moz-keyframes beardLaugh {
+    0% {
+      bottom: -28px;
+    }
+
+    2% {
+      bottom: -30px;
+    }
+
+    4% {
+      bottom: -28px;
+    }
+
+    8% {
+      bottom: -30px;
+    }
+
+    10% {
+      bottom: -28px;
+    }
+
+    12% {
+      bottom: -30px;
+    }
+
+    14% {
+      bottom: -28px;
+    }
+
+    18% {
+      bottom: -30px;
+    }
+
+    20% {
+      bottom: -28px;
+    }
+
+    22% {
+      bottom: -30px;
+    }
+
+    24% {
+      bottom: -28px;
+    }
+
+    28% {
+      bottom: -30px;
+    }
+
+    30% {
+      bottom: -28px;
+    }
+
+    100% {
+      bottom: -28px;
+    }
+  }
+
+  @-ms-keyframes beardLaugh {
+    0% {
+      bottom: -28px;
+    }
+
+    2% {
+      bottom: -30px;
+    }
+
+    4% {
+      bottom: -28px;
+    }
+
+    8% {
+      bottom: -30px;
+    }
+
+    10% {
+      bottom: -28px;
+    }
+
+    12% {
+      bottom: -30px;
+    }
+
+    14% {
+      bottom: -28px;
+    }
+
+    18% {
+      bottom: -30px;
+    }
+
+    20% {
+      bottom: -28px;
+    }
+
+    22% {
+      bottom: -30px;
+    }
+
+    24% {
+      bottom: -28px;
+    }
+
+    28% {
+      bottom: -30px;
+    }
+
+    30% {
+      bottom: -28px;
+    }
+
+    100% {
+      bottom: -28px;
+    }
+  }
+
+  @keyframes beardLaugh {
+    0% {
+      bottom: -28px;
+    }
+
+    2% {
+      bottom: -30px;
+    }
+
+    4% {
+      bottom: -28px;
+    }
+
+    8% {
+      bottom: -30px;
+    }
+
+    10% {
+      bottom: -28px;
+    }
+
+    12% {
+      bottom: -30px;
+    }
+
+    14% {
+      bottom: -28px;
+    }
+
+    18% {
+      bottom: -30px;
+    }
+
+    20% {
+      bottom: -28px;
+    }
+
+    22% {
+      bottom: -30px;
+    }
+
+    24% {
+      bottom: -28px;
+    }
+
+    28% {
+      bottom: -30px;
+    }
+
+    30% {
+      bottom: -28px;
+    }
+
+    100% {
+      bottom: -28px;
+    }
+  }
+
+  @-webkit-keyframes headLaugh {
+    0% {
+      bottom: 83px;
+    }
+
+    45% {
+      bottom: 83px;
+    }
+
+    50% {
+      bottom: 90px;
+    }
+
+    92% {
+      bottom: 90px;
+    }
+
+    98% {
+      bottom: 83px;
+    }
+
+    100% {
+      bottom: 83px;
+    }
+  }
+
+  @-moz-keyframes headLaugh {
+    0% {
+      bottom: 83px;
+    }
+
+    45% {
+      bottom: 83px;
+    }
+
+    50% {
+      bottom: 90px;
+    }
+
+    92% {
+      bottom: 90px;
+    }
+
+    98% {
+      bottom: 83px;
+    }
+
+    100% {
+      bottom: 83px;
+    }
+  }
+
+  @-ms-keyframes headLaugh {
+    0% {
+      bottom: 83px;
+    }
+
+    45% {
+      bottom: 83px;
+    }
+
+    50% {
+      bottom: 90px;
+    }
+
+    92% {
+      bottom: 90px;
+    }
+
+    98% {
+      bottom: 83px;
+    }
+
+    100% {
+      bottom: 83px;
+    }
+  }
+
+  @keyframes headLaugh {
+    0% {
+      bottom: 83px;
+    }
+
+    45% {
+      bottom: 83px;
+    }
+
+    50% {
+      bottom: 90px;
+    }
+
+    92% {
+      bottom: 90px;
+    }
+
+    98% {
+      bottom: 83px;
+    }
+
+    100% {
+      bottom: 83px;
+    }
+  }
+
+  @-webkit-keyframes mouthLaugh {
+    0% {
+      width: 20px;
+    }
+
+    45% {
+      width: 20px;
+    }
+
+    50% {
+      width: 15px;
+    }
+
+    92% {
+      width: 15px;
+    }
+
+    98% {
+      width: 20px;
+    }
+
+    100% {
+      width: 20px;
+    }
+  }
+
+  @-moz-keyframes mouthLaugh {
+    0% {
+      width: 20px;
+    }
+
+    45% {
+      width: 20px;
+    }
+
+    50% {
+      width: 15px;
+    }
+
+    92% {
+      width: 15px;
+    }
+
+    98% {
+      width: 20px;
+    }
+
+    100% {
+      width: 20px;
+    }
+  }
+
+  @-ms-keyframes mouthLaugh {
+    0% {
+      width: 20px;
+    }
+
+    45% {
+      width: 20px;
+    }
+
+    50% {
+      width: 15px;
+    }
+
+    92% {
+      width: 15px;
+    }
+
+    98% {
+      width: 20px;
+    }
+
+    100% {
+      width: 20px;
+    }
+  }
+
+  @keyframes mouthLaugh {
+    0% {
+      width: 20px;
+    }
+
+    45% {
+      width: 20px;
+    }
+
+    50% {
+      width: 15px;
+    }
+
+    92% {
+      width: 15px;
+    }
+
+    98% {
+      width: 20px;
+    }
+
+    100% {
+      width: 20px;
+    }
+  }
 </style>
 
 
 <body class="bg-light">
-    <main role="main" class="container" style="background: white">
-        <div class="d-flex align-items-center p-3 my-3 text-white-50 bg-purple rounded box-shadow">
-            <img class="mr-3" src="icons/meth_icon.png" alt="" width="48" height="48">
-            <div class="lh-100">
-                <h6 class="mb-0 text-white lh-100">TEACHING EVERYONE TO LIVE LIKE CHRIST</h6>
-                <small>Bethel Methodist Church, Ayigya</small>
+  <main role="main" class="container" style="background: white">
+    <div class="d-flex align-items-center p-3 my-3 text-white-50 bg-purple rounded box-shadow">
+      <img class="mr-3" src="icons/meth_icon.png" alt="" width="48" height="48">
+      <div class="lh-100">
+        <h6 class="mb-0 text-white lh-100">TEACHING EVERYONE TO LIVE LIKE CHRIST</h6>
+        <small>Bethel Methodist Church, Ayigya</small>
+      </div>
+    </div>
+
+
+    <div class="nav-scroller bg-white box-shadow">
+      <nav class="nav nav-underline">
+        <a class="nav-link active" href="#"><img src="icons/boys_brigade.jpg" alt="" width="20px" height="20px"></a>
+        <a class="nav-link" href="#"><img src="icons/choir.jpg" alt="" width="20px" height="20px"></a>
+        <a class="nav-link" href="#"><img src="icons/singing_band.jpg" alt="" width="20px" height="20px"></a>
+        <a class="nav-link" href="#"><img src="icons/women.jpg" alt="" width="20px" height="20px"></a>
+        <a class="nav-link" href="#"><img src="icons/suwma.jpg" alt="" width="20px" height="20px"></a>
+        <a class="nav-link" href="#">GIP</a>
+        <a class="nav-link" href="#"><img src="icons/christ.jpg" alt="" width="20px" height="20px"></a>
+        <a class="nav-link" href="#"><img src="icons/guild.jpg" alt="" width="20px" height="20px"></a>
+        <a class="nav-link" href="#"><img src="icons/logo-new.png" alt="" width="20px" height="20px"></a>
+        <a class="nav-link" href="#"><img src="icons/girls-brigade.jpg" alt="" width="20px" height="20px"></a>
+        <a class="nav-link" href="#">Golden bells</a>
+        <a class="nav-link" href="#"><img src="icons/girls_fellowship.jpg" alt="" width="20px" height="20px"></a>
+        <a class="nav-link" href="#"><img src="icons/youth.jpg" alt="" width="20px" height="20px"></a>
+      </nav>
+    </div>
+
+
+
+
+    <div class="window">
+      <div class="santa">
+        <div class="head">
+          <div class="face">
+            <div class="redhat">
+              <div class="whitepart"></div>
+              <div class="redpart"></div>
+              <div class="hatball"></div>
             </div>
+            <div class="eyes"></div>
+            <div class="beard">
+              <div class="nouse"></div>
+              <div class="mouth"></div>
+            </div>
+          </div>
+          <div class="ears"></div>
         </div>
-
-
-        <div class="nav-scroller bg-white box-shadow">
-            <nav class="nav nav-underline">
-                <a class="nav-link active" href="#"><img src="icons/boys_brigade.jpg" alt="" width="20px"
-                        height="20px"></a>
-                <a class="nav-link" href="#"><img src="icons/choir.jpg" alt="" width="20px" height="20px"></a>
-                <a class="nav-link" href="#"><img src="icons/singing_band.jpg" alt="" width="20px" height="20px"></a>
-                <a class="nav-link" href="#"><img src="icons/women.jpg" alt="" width="20px" height="20px"></a>
-                <a class="nav-link" href="#"><img src="icons/suwma.jpg" alt="" width="20px" height="20px"></a>
-                <a class="nav-link" href="#">GIP</a>
-                <a class="nav-link" href="#"><img src="icons/christ.jpg" alt="" width="20px" height="20px"></a>
-                <a class="nav-link" href="#"><img src="icons/guild.jpg" alt="" width="20px" height="20px"></a>
-                <a class="nav-link" href="#"><img src="icons/logo-new.png" alt="" width="20px" height="20px"></a>
-                <a class="nav-link" href="#"><img src="icons/girls-brigade.jpg" alt="" width="20px" height="20px"></a>
-                <a class="nav-link" href="#">Golden bells</a>
-                <a class="nav-link" href="#"><img src="icons/girls_fellowship.jpg" alt="" width="20px"
-                        height="20px"></a>
-                <a class="nav-link" href="#"><img src="icons/youth.jpg" alt="" width="20px" height="20px"></a>
-            </nav>
-        </div>
-
-
-      
-
-            <div class="window">
-                <div class="santa">
-                    <div class="head">
-                        <div class="face">
-                            <div class="redhat">
-                                <div class="whitepart"></div>
-                                <div class="redpart"></div>
-                                <div class="hatball"></div>
-                            </div>
-                            <div class="eyes"></div>
-                            <div class="beard">
-                                <div class="nouse"></div>
-                                <div class="mouth"></div>
-                            </div>
-                        </div>
-                        <div class="ears"></div>
-                    </div>
-                    <div class="body"></div>
-                </div>
-            </div>
-            
+        <div class="body"></div>
+      </div>
+    </div>
 
 
 
-        <div class="my-3 p-3 bg-white rounded box-shadow">
 
-            <h6 class="border-bottom border-gray pb-2 mb-0">Recent notices</h6>
+    <div class="my-3 p-3 bg-white rounded box-shadow">
 
-            <div class="media text-muted pt-3">
-                <img src="icons/meth_icon.png" width="40px" height="40px" alt="" class="mr-2 rounded">
-                <p class="media-body pb-3 mb-0 small lh-125">
-                    <strong class="d-block text-gray-dark">SCHEDULE FOR THIS WEEK</strong><br>
-                    <text><b>Mon: </b> Good Morning Holy Spirit at 6am.</text>
-                    <text><b>Wed: </b> Prayer meeting. Time: 6.30pm.</text>
-                    <text><b>Thursday: </b> No Leader's Meeting.</text>
-                    <text> <b>Friday: </b> Christmas Service 8:00am.</text>
-                    <!--<text><b>Saturday: </b>FUNERAL</text> -->
-                    <text><b>Sunday: </b> Three Services 6:30am, 8:30am and 10:30am</text>
-                </p>
-            </div>
+      <h6 class="border-bottom border-gray pb-2 mb-0">Recent notices</h6>
 
-            <hr>
+      <div class="media text-muted pt-3">
+        <img src="icons/meth_icon.png" width="40px" height="40px" alt="" class="mr-2 rounded">
+        <p class="media-body pb-3 mb-0 small lh-125">
+          <strong class="d-block text-gray-dark">SCHEDULE FOR THIS WEEK</strong><br>
+          <text><b>Mon: </b> Good Morning Holy Spirit at 6am.</text>
+          <text><b>Wed: </b> Prayer meeting. Time: 6.30pm.</text>
+          <text><b>Friday: </b> MPRP @ 8:00 - 10:00am.</text>
+          <text> <b>Saturday: </b> Wedding.</text>
+          <text><b>Sunday: </b> Three Services 6:30am, 8:30am and 10:30am.</text>
+        </p>
+      </div>
+
+      <hr>
 
 
-            <div class="media text-muted pt-3">
-                <img src="icons/meth_icon.png" alt="" width="40px" height="40px" class="mr-2 rounded">
-                <p class="media-body pb-3 mb-0 small lh-125">
-                    <strong class="d-block text-gray-dark">BECOMING ONE PROGRAM</strong><br>
-                    <text>Register with the Vestry or contact Teacher Safo of Sunday School.</text>
-                </p>
-            </div>
+      <div class="media text-muted pt-3">
+        <img src="icons/meth_icon.png" alt="" width="40px" height="40px" class="mr-2 rounded">
+        <p class="media-body pb-3 mb-0 small lh-125">
+          <strong class="d-block text-gray-dark">BECOMING ONE PROGRAM</strong><br>
+          <text>Register with the Vestry or contact Teacher Safo of Sunday School.</text>
+        </p>
+      </div>
 
-            <hr>
+      <hr>
 
-            <!-- <div class="media text-muted pt-3">
+      <!-- <div class="media text-muted pt-3">
                 <img src="icons/meth_icon.png" alt="" width="40px" height="40px" class="mr-2 rounded">
                 <p class="media-body pb-3 mb-0 small lh-125">
                     <strong class="d-block text-gray-dark">PROVIDENT FUND AGM</strong><br>
@@ -902,33 +1148,42 @@
 
             <hr> -->
 
-            <div class="media text-muted pt-3">
-                <img src="icons/meth_icon.png" alt="" width="40px" height="40px" class="mr-2 rounded">
-                <p class="media-body pb-3 mb-0 small lh-125">
-                    <strong class="d-block text-gray-dark">WIDOW AND WIDOWER'S PROGRAM</strong><br>
-                    <text><b>Date: </b> 26th December, 2020</text>
-                    <text><b>Venue: </b>Bethel Chapel, Ayigya</text>
-                    <text><b>Time: </b>9:00am</text>
-                </p>
-            </div>
+      <div class="media text-muted pt-3">
+        <img src="icons/women.jpg" alt="" width="40px" height="40px" class="mr-2 rounded">
+        <p class="media-body pb-3 mb-0 small lh-125">
+          <strong class="d-block text-gray-dark">WOMEN’S FELLOWSHIP MEETING</strong><br>
+          <text><b>Date: </b> 17th January, 2021</text>
+          <text><b>Time: </b>4:00pm</text>
+        </p>
+      </div>
 
-            <hr>
+      <hr>
 
-            <div class="media text-muted pt-3">
-                <img src="icons/women.jpg" alt="" width="40px" height="40px" class="mr-2 rounded">
-                <p class="media-body pb-3 mb-0 small lh-125">
-                    <strong class="d-block text-gray-dark">WOMEN'S FELLOWSHIP END OF YEAR RALLY</strong><br>
-                    <text>The Circuit Women's Felllowship end of year rallly will come off on Sunday 20th December,
-                        2020 at Ayigya.</text>
-                    <text><b>Date: </b> Sunday 20th December, 2020</text>
-                    <text><b>Attire: </b>T Shirt and Diocesan Cloth</text>
-                    <text><b>Time: </b>9:00am</text>
-                </p>
-            </div>
+      <div class="media text-muted pt-3">
+        <img src="icons/meth_icon.png" alt="" width="40px" height="40px" class="mr-2 rounded">
+        <p class="media-body pb-3 mb-0 small lh-125">
+          <strong class="d-block text-gray-dark">NAMING CEREMONY SCHEDULE</strong><br>
+          <text>Every second Saturday of the month.</text>
+        </p>
+      </div>
 
-            <hr>
+      <hr>
 
-            <!-- <div class="media text-muted pt-3">
+
+      <div class="media text-muted pt-3">
+        <img src="icons/suwma.jpg" alt="" width="40px" height="40px" class="mr-2 rounded">
+        <p class="media-body pb-3 mb-0 small lh-125">
+          <strong class="d-block text-gray-dark">SUWMA CIRCUIT FASTING AND PRAYER WEEK</strong><br>
+          <text><b>Date: </b> 11th to 16th January 2021</text>
+          <text><b>Venue: </b> Domeabra</text>
+          <text><b>Time: </b> 4:00 p.m</text>
+        </p>
+      </div>
+
+      <hr>
+
+
+      <!-- <div class="media text-muted pt-3">
                 <img src="icons/meth_icon.png" alt="" width="40px" height="40px" class="mr-2 rounded">
                 <p class="media-body pb-3 mb-0 small lh-125">
                     <strong class="d-block text-gray-dark">PRAYER REVIVAL</strong><br><br>
@@ -941,7 +1196,7 @@
 
             <hr> -->
 
-          <!--   <div class="media text-muted pt-3">
+      <!--   <div class="media text-muted pt-3">
                 <img src="icons/meth_icon.png" alt="" width="40px" height="40px" class="mr-2 rounded">
                 <p class="media-body pb-3 mb-0 small lh-125">
                     <strong class="d-block text-gray-dark">MPRP PRAYER AND FASTING
@@ -954,7 +1209,7 @@
 
             <hr> -->
 
-            <div class="media text-muted pt-3">
+      <!--    <div class="media text-muted pt-3">
                 <img src="icons/singing_band.jpg" alt="" width="40px" height="40px" class="mr-2 rounded">
                 <p class="media-body pb-3 mb-0 small lh-125">
                     <strong class="d-block text-gray-dark">CIRCUIT SINGING BAND CAROLS SERVICE</strong><br><br>
@@ -964,93 +1219,90 @@
                 </p>
             </div>
 
-            <hr>
+            <hr> -->
 
 
-            <div class="media text-muted pt-3">
-                <img src="icons/reading.png" alt="" width="40px" height="40px" class="mr-2 rounded">
-                <p class="media-body pb-3 mb-0 small lh-125">
-                    <strong class="d-block text-gray-dark"><i>GROWING INTO CHRISTLIKENESS</i> BOOK</strong><br><br>
-                    <text>Copies of the book “Growing into Christlikeness” are available at the book stand for
-                        sale.</text>
-                    <text>Price: GH¢ 10.00</text>
-                </p>
-            </div>
+      <div class="media text-muted pt-3">
+        <img src="icons/reading.png" alt="" width="40px" height="40px" class="mr-2 rounded">
+        <p class="media-body pb-3 mb-0 small lh-125">
+          <strong class="d-block text-gray-dark"><i>GROWING INTO CHRISTLIKENESS</i> BOOK</strong><br><br>
+          <text>Copies of the book “Growing into Christlikeness” are available at the book stand for
+            sale.</text>
+          <text>Price: GH¢ 10.00</text>
+        </p>
+      </div>
 
-            <hr>
-
-            <div class="media text-muted pt-3">
-                <img src="icons/marriage_icon.png" alt="" width="40px" height="40px" class="mr-2 rounded">
-                <p class="media-body pb-3 mb-0 small lh-125">
-                    <strong class="d-block text-gray-dark">BANNS OF MARRIAGE</strong><br><br>
+      <hr>
 
 
-                    <img src="icons/default.JPG" width="70px" height="70px" alt="" class="mr-2 rounded"
-                        style="margin-left: 25%;">
-                    <img src="icons/default.JPG" width="70px" height="70px" alt="" class="mr-2 rounded"
-                        style="margin-left: 5%;"><br><br>
 
-                    <text><b>Groom: </b> Bro. Prince Baffour Brentuo, Divine World of Faith, Ejisu</text>
-                    <text> <b>Bride: </b> Sis. Abigail Manu, Monday ‘D’ Bible Class and Guild</text>
-                    <text><b>Venue: </b> Bethel Chapel, Ayigya</text>
-                    <text><b>Date: </b> 2nd January, 2021</text>
-                    <text><b>Time: </b> 10:00am</text>
-                </p>
-            </div>
-
-            <hr>
-
-            <div class="media text-muted pt-3">
-                <img src="icons/marriage_icon.png" alt="" width="40px" height="40px" class="mr-2 rounded">
-                <p class="media-body pb-3 mb-0 small lh-125">
-                    <strong class="d-block text-gray-dark">BANNS OF MARRIAGE</strong><br><br>
+      <div class="media text-muted pt-3">
+        <img src="icons/marriage_icon.png" alt="" width="40px" height="40px" class="mr-2 rounded">
+        <p class="media-body pb-3 mb-0 small lh-125">
+          <strong class="d-block text-gray-dark">BANNS OF MARRIAGE</strong><br><br>
 
 
-                    <img src="icons/default.JPG" width="70px" height="70px" alt="" class="mr-2 rounded"
-                        style="margin-left: 25%;">
-                    <img src="icons/default.JPG" width="70px" height="70px" alt="" class="mr-2 rounded"
-                        style="margin-left: 5%;"><br><br>
+          <img src="icons/default.JPG" width="70px" height="70px" alt="" class="mr-2 rounded" style="margin-left: 25%;">
+          <img src="icons/default.JPG" width="70px" height="70px" alt="" class="mr-2 rounded"
+            style="margin-left: 5%;"><br><br>
 
-                    <text><b>Groom: </b> Bro. Albert Takyi, Zezera Catholic Church, Drobo</text>
-                    <text> <b>Bride: </b> Sis. Jemima Ampah, Timothy Class, MYF and MGF</text>
-                    <text><b>Venue: </b> Bethel Chapel, Ayigya</text>
-                    <text><b>Date: </b> 9th January, 2021</text>
-                    <text><b>Time: </b> 9:30am</text>
-                </p>
-            </div>
+          <text><b>Groom: </b> Bro. Albert Takyi, Zezera Catholic Church, Drobo</text>
+          <text> <b>Bride: </b> Sis. Jemima Ampah, Timothy Class, MYF and MGF</text>
+          <text><b>Venue: </b> Bethel Chapel, Ayigya</text>
+          <text><b>Date: </b> 9th January, 2021</text>
+          <text><b>Time: </b> 9:30am</text>
+        </p>
+      </div>
 
-            <hr>
+      <hr>
 
 
-            <div class="media text-muted pt-3">
-                <img src="icons/marriage_icon.png" alt="" width="40px" height="40px" class="mr-2 rounded">
-                <p class="media-body pb-3 mb-0 small lh-125">
-                    <strong class="d-block text-gray-dark">BANNS OF MARRIAGE</strong><br><br>
+      <div class="media text-muted pt-3">
+        <img src="icons/marriage_icon.png" alt="" width="40px" height="40px" class="mr-2 rounded">
+        <p class="media-body pb-3 mb-0 small lh-125">
+          <strong class="d-block text-gray-dark">BANNS OF MARRIAGE</strong><br><br>
 
-                    <!-- <img src="icons/default.JPG" width="60px" height="60px" alt="" class="mr-2 rounded">
+          <!-- <img src="icons/default.JPG" width="60px" height="60px" alt="" class="mr-2 rounded">
                     <img src="icons/default.JPG" width="60px" height="60px" alt="" class="mr-2 rounded"><br><br> -->
 
 
-                    <img src="icons/default.JPG" width="70px" height="70px" alt="" class="mr-2 rounded"
-                        style="margin-left: 25%;">
-                    <img src="icons/default.JPG" width="70px" height="70px" alt="" class="mr-2 rounded"
-                        style="margin-left: 5%;"><br><br>
+          <img src="icons/default.JPG" width="70px" height="70px" alt="" class="mr-2 rounded" style="margin-left: 25%;">
+          <img src="icons/default.JPG" width="70px" height="70px" alt="" class="mr-2 rounded"
+            style="margin-left: 5%;"><br><br>
+          <text><b>Groom: </b> Bro. Samuel Danful of Bethel Methodist Church, Ayigya</text>
+          <text> <b>Bride: </b> Sis. Mary Mensah of Bethel Methodist Church</text>
+          <text><b>Venue: </b> Bethel Chapel, Ayigya </text>
+          <text><b>Date: </b>19th January, 2021
+          </text>
+          <text><b>Time: </b> 1:00pm</text>
+        </p>
+      </div>
+
+      <hr>
 
 
-                    <text><b>Groom: </b> Bro. Samuel Danful of Bethel Methodist Church, Ayigya</text>
-                    <text> <b>Bride: </b> Sis. Mary Mensah of Bethel Methodist Church</text>
-                    <text><b>Venue: </b> Bethel Chapel, Ayigya </text>
-                    <text><b>Date: </b>19th January, 2021
-                    </text>
-
-                    <text><b>Time: </b> 1:00pm</text>
-                </p>
-            </div>
-
-            <hr>
+      <div class="media text-muted pt-3">
+        <img src="icons/marriage_icon.png" alt="" width="40px" height="40px" class="mr-2 rounded">
+        <p class="media-body pb-3 mb-0 small lh-125">
+          <strong class="d-block text-gray-dark">BANNS OF MARRIAGE</strong><br><br>
 
 
-<!--             <div class="media text-muted pt-3">
+          <img src="icons/default.JPG" width="70px" height="70px" alt="" class="mr-2 rounded" style="margin-left: 25%;">
+          <img src="icons/default.JPG" width="70px" height="70px" alt="" class="mr-2 rounded"
+            style="margin-left: 5%;"><br><br>
+
+          <text><b>Groom: </b> Bro. Edmound Armah Attoh of Assemblies of God, Mataheko</text>
+          <text> <b>Bride: </b> Lordina Omanhene-Gyamah of Timothy class</text>
+          <text><b>Venue: </b> Bethel Chapel, Ayigya </text>
+          <text><b>Date: </b>30th January, 2021</text>
+          <text><b>Time: </b> 12:00 p.m.</text>
+        </p>
+      </div>
+
+      <hr>
+
+
+      <!--             <div class="media text-muted pt-3">
                 <img src="icons/graveyard.png" alt="" width="40px" height="40px" class="mr-2 rounded">
                 <p class="media-body pb-3 mb-0 small lh-125">
                     <strong class="d-block text-gray-dark">DEATHS AND BEREAVEMENT</strong><br><br>
@@ -1074,101 +1326,101 @@
 
             <hr> -->
 
-            <div class="media text-muted pt-3">
-                <img src="icons/meth_icon.png" width="40px" height="40px" alt="" class="mr-2 rounded">
-                <p class="media-body pb-3 mb-0 small lh-125">
-                    <strong class="d-block text-gray-dark">YOUTH COMPLEX PROJECT</strong><br>
-                    <text>Appeal for building materials</text>
-                    <text><b>Cement: </b> Gh¢ 41.00</text>
-                    <text><b>Iron rods 1 tonne: </b> Gh¢ 4, 380.00</text>
-                    <text><b>Chippings 3/4 size: </b> Gh¢ 2,430.00 (15 cubic)</text>
-                    <text><b>Sand 20 cubic: </b> Gh¢ 1200.00</text><br>
-                    <text><b>Bank: </b> Cal Bank</text>
-                    <text><b>Account name: </b> AYIGYA BETHEL METHODIST</text>
-                    <text><b>Account number: </b> 1400000348874</text>
-                    <text><b>Branch: </b> KNUST</text>
-                    <text><b>Mtn Momo Merchant ID: </b> 312178</text>
-                    <text><b>Mtn Momo Number: </b> 0240853791</text>
-                </p>
-            </div>
+      <div class="media text-muted pt-3">
+        <img src="icons/meth_icon.png" width="40px" height="40px" alt="" class="mr-2 rounded">
+        <p class="media-body pb-3 mb-0 small lh-125">
+          <strong class="d-block text-gray-dark">YOUTH COMPLEX PROJECT</strong><br>
+          <text>Appeal for building materials</text>
+          <text><b>Cement: </b> Gh¢ 41.00</text>
+          <text><b>Iron rods 1 tonne: </b> Gh¢ 4, 380.00</text>
+          <text><b>Chippings 3/4 size: </b> Gh¢ 2,430.00 (15 cubic)</text>
+          <text><b>Sand 20 cubic: </b> Gh¢ 1200.00</text><br>
+          <text><b>Bank: </b> Cal Bank</text>
+          <text><b>Account name: </b> AYIGYA BETHEL METHODIST</text>
+          <text><b>Account number: </b> 1400000348874</text>
+          <text><b>Branch: </b> KNUST</text>
+          <text><b>Mtn Momo Merchant ID: </b> 312178</text>
+          <text><b>Mtn Momo Number: </b> 0240853791</text>
+        </p>
+      </div>
 
-            <hr>
+      <hr>
 
-            <br><br>
-
-
-            <b>STEWARDS:</b><br><br>
-
-            <text>Bro. Kingsley Afre Nduro <b style="float: right"> 0208824596</b></text><br>
-
-            <text> Sis. Grace Obeng Afoakwa <b style="float: right"> 0207446475</b></text><br>
-
-            <text>Bro. Kwabena Ampong <b style="float: right"> 0246555156</b></text><br>
+      <br><br>
 
 
-        </div>
+      <b>STEWARDS:</b><br><br>
+
+      <text>Bro. Kingsley Afre Nduro <b style="float: right"> 0208824596</b></text><br>
+
+      <text> Sis. Grace Obeng Afoakwa <b style="float: right"> 0207446475</b></text><br>
+
+      <text>Bro. Kwabena Ampong <b style="float: right"> 0246555156</b></text><br>
 
 
-        <p class="card-text">LAST WEEK ATTENDANCE</p>
+    </div>
 
 
-        <table class="table table-bordered" style="font-size: x-small">
-            <thead>
-                <tr>
-                    <th scope="col"></th>
-                    <th scope="col">MALE</th>
-                    <th scope="col">FEMALE</th>
-                    <th scope="col"></th>
-                </tr>
-            </thead>
-            <tbody>
-               <!--  <tr>
+    <p class="card-text">LAST WEEK ATTENDANCE</p>
+
+
+    <table class="table table-bordered" style="font-size: x-small">
+      <thead>
+        <tr>
+          <th scope="col"></th>
+          <th scope="col">MALE</th>
+          <th scope="col">FEMALE</th>
+          <th scope="col"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <!--  <tr>
                     <th scope="row"></th>
                     <td>Adult/Youth</td>
                     <td>Adult/Youth</td>
                     <td></td>
                 </tr> -->
 
-                <tr>
-                    <th scope="row">Adult/Youth</th>
-                    <td>134</td>
-                    <td>176</td>
-                    <td><b>310</b></td>
-                </tr>
+        <tr>
+          <th scope="row">Adult/Youth</th>
+          <td>149</td>
+          <td>231</td>
+          <td><b>380</b></td>
+        </tr>
 
-                <tr>
-                    <th scope="row">2nd</th>
-                    <td>141</td>
-                    <td>218</td>
-                    <td><b>359</b></td>
-                </tr> 
-               <!--  <tr>
+        <tr>
+          <th scope="row">2nd</th>
+          <td>164</td>
+          <td>304</td>
+          <td><b>468</b></td>
+        </tr>
+        <!--  <tr>
                     <th scope="row">3rd</th>
                     <td>-</td>
                     <td>-</td>
                     <td><b>-</b></td>
                 </tr> -->
 
-                <tr>
-                    <th scope="row">Visitor</th>
-                    <td>1</td>
-                    <td>1</td>
-                    <td><b>2</b></td>
-                </tr>
+        <tr>
+          <th scope="row">Visitor</th>
+          <td>-</td>
+          <td>-</td>
+          <td><b>-</b></td>
+        </tr>
 
-                <tr>
-                    <th scope="row">TOTAL</th>
-                    <td><b>276</b></td>
-                    <td><b>395</b></td>
-                    <td><b>671</b></td>
-                </tr>
+        <tr>
+          <th scope="row">TOTAL</th>
+          <td><b>313</b></td>
+          <td><b>535</b></td>
+          <td><b>848</b></td>
+        </tr>
 
-            </tbody>
-        </table>
-    </main>
-    <footer>
-        <h6 style="font-size: small">Bethel, Nyame Fie </h6>
-    </footer>
+      </tbody>
+    </table>
+  </main>
+  <footer>
+    <h6 style="font-size: small">Bethel, Nyame Fie </h6>
+  </footer>
 
 </body>
 
