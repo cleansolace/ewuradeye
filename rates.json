@@ -1,0 +1,9 @@
+{
+  "last_updated": "29 Apr 2026, 14:30",
+  "base": "USD",
+  "rates": {
+    "USD_GHS": 11.18,
+    "GHS_USD": 0.089
+  },
+  "notice": "Rates are for informational purposes only."
+}
