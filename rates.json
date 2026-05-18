@@ -3,7 +3,7 @@
   "base": "USD",
   "rates": {
     "USD_GHS": 11.40,
-    "GHS_USD": 0.089
+    "GHS_USD": 0.009
   },
   "notice": "Rates are for informational purposes only."
 }
